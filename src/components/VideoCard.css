@@ -1,0 +1,30 @@
+.video-card {
+  background: #222;
+  border-radius: 4px;
+  overflow: hidden;
+  /* aspect-ratio: 9/16;  -- Keeping this or removing? If shorts, keep it. */
+  width: 200px;
+  /* Fixed width for row items */
+  height: 350px;
+  /* Fixed height for consistency */
+  position: relative;
+}
+
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  /* Make it non-interactive for the list view? Or keep it? Netflix previews. */
+  /* If pointer-events is none, we can't play it. Let's keep it interactive for now or maybe just an image thumbnail would be better if we had one.
+     Since we only have the video ID, we use iframe. */
+  pointer-events: auto;
+}
+
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,32 @@
+.row {
+    margin-left: 20px;
+    color: white;
+}
+
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row_poster_wrapper {
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_poster_wrapper:hover {
+    transform: scale(1.08);
+    /* Scale effect */
+    opacity: 1;
+}
+
+.row h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
