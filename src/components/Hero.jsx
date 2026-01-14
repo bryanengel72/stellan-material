@@ -18,7 +18,7 @@ function Hero({ featuredVideoId }) {
                     <button className="hero_button">My List</button>
                 </div>
                 <h1 className="hero_description">
-                    Watch this amazing highlighted content from our curated collection. diverse and interesting videos waiting for you to explore.
+                    Watch this amazing highlighted content from my stand-up routines in 2025.
                 </h1>
             </div>
 
